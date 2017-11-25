@@ -26,14 +26,19 @@
   },
   "config": {
     "vendor-dir": "vendor",
+    "preferred-install": {
+      "*": "auto"
+    },
     "fxp-asset": {
       "git-skip-update": "2 days",
       "vcs-driver-options": {
         "github-no-api": false
       },
       "installer-paths": {
+        "npm-asset-library": "vendor/npm",
         "bower-asset-library": "vendor/bower"
       },
       "pattern-skip-version": "(-build|-patch)"
     }
+  }
 }
