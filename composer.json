@@ -1,5 +1,5 @@
 {
-  "name": "romka-chev/yii2-swiper",
+  "name": "quexer69/yii2-swiper",
   "description": "Yii2 extension for Swiper slider",
   "keywords": [
     "yii",
@@ -24,10 +24,16 @@
       "romkaChev\\yii2\\swiper\\": ""
     }
   },
-  "extra": {
-    "asset-installer-paths": {
-      "npm-asset-library": "vendor/npm",
-      "bower-asset-library": "vendor/bower"
+  "config": {
+    "vendor-dir": "vendor",
+    "fxp-asset": {
+      "git-skip-update": "2 days",
+      "vcs-driver-options": {
+        "github-no-api": false
+      },
+      "installer-paths": {
+        "bower-asset-library": "vendor/bower"
+      },
+      "pattern-skip-version": "(-build|-patch)"
     }
-  }
 }
