@@ -1,11 +1,4 @@
-# Yii2-swiper ![Coverage 100%](https://img.shields.io/badge/coverage-100%25-green.svg?style=flat) ![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)
-
-Yii2 widget for Swiper slider. See more here: [https://github.com/nolimits4web/Swiper/](https://github.com/nolimits4web/Swiper).
-
-You can find examples in [demos](demos) folder.
-
-Also you can read [documentation](docs).
-
+# Yii2-swiper  fixed version romka-chev/yii2-swiper
 ## Installation
  
 You can get this extension through [Composer](https://getcomposer.org/download/).
@@ -13,13 +6,13 @@ You can get this extension through [Composer](https://getcomposer.org/download/)
 Either run in terminal
  
 ```Shell
-$ php composer.phar require "romka-chev/yii2-swiper" "*"
+$ php composer.phar require "sinelnikof/yii2-swiper" "*"
 ```
  
 or add
  
 ```JSON
-"romka-chev/yii2-swiper" : "*"
+"sinelnikof/yii2-swiper" : "*"
 ```
  
 to the *require* section of your application's ```composer.json``` file.
@@ -32,7 +25,7 @@ to the *require* section of your application's ```composer.json``` file.
 /**
  * @var \yii\web\View $this
  */
-use romkaChev\yii2\swiper\Swiper;
+use sinelnikof\yii2\swiper\Swiper;
 
 echo Swiper::widget( [
   'items'         => [
@@ -63,7 +56,4 @@ echo Swiper::widget( [
 ```
 
 ## Issues
-
-If some problems occurred, you can create [issue](https://github.com/romka-chev/yii2-swiper/issues).
-
-Thank you for attention.
+ 
